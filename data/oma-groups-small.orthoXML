@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orthoXML xmlns="http://orthoXML.org/2011/" version="0.3" origin="OMA" originVersion="OMA.All.Mar2017">
+ <notes>
+  <stats nrGroups="779787" nrSpecies="2085" nrProt="11404511" nrProtInGroups="9060590" />
+ </notes>
+ <species name="Acidilobus saccharovorans (strain DSM 16705 / JCM 18335 / VKM B-2471 / 345-15)" NCBITaxId="666510">
+  <database name="Genome Reviews" version="30-NOV-2010 (Rel. 127, Last updated, Version 2)">
+   <genes>
+    <gene id="1" geneId="ASAC_0001" protId="ACIS300001"/>
+    <gene id="2" geneId="ASAC_0002" protId="ACIS300002"/>
+    <gene id="3" geneId="ASAC_0003" protId="ACIS300003"/>
+    <gene id="4" geneId="ASAC_0004" protId="ACIS300004"/>
+    <gene id="5" geneId="ASAC_0005" protId="ACIS300005"/>
+    <gene id="6" geneId="ASAC_0006" protId="ACIS300006"/>
+    </genes>
+  </database>
+ </species>
+ <species name="Caldisphaera lagunensis (strain DSM 15908 / JCM 11604 / IC-154)" NCBITaxId="1056495">
+  <database name="EBI" version="23-JUL-2013 (Rel. 117, Last updated, Version 2)">
+   <genes>
+    <gene id="1500" geneId="Calag_0001" protId="CALLD00001"/>
+    <gene id="1501" geneId="Calag_0002" protId="CALLD00002"/>
+    <gene id="1502" geneId="Calag_0003" protId="CALLD00003"/>
+    <gene id="1503" geneId="Calag_0004" protId="CALLD00004"/>
+    <gene id="1504" geneId="Calag_0005" protId="CALLD00005"/>
+    <gene id="1505" geneId="Calag_0006" protId="CALLD00006"/>
+   </genes>
+  </database>
+ </species>
+ <species name="Test 3" NCBITaxId="1056493">
+  <database name="EBI" version="23-JUL-2013 (Rel. 117, Last updated, Version 2)">
+   <genes>
+    <gene id="2000" geneId="Test3_gen_2000" protId="Test3_prot_2000"/>
+    <gene id="2001" geneId="Test3_gen_2001" protId="Test3_prot_2001"/>
+    <gene id="2002" geneId="Test3_gen_2002" protId="Test3_prot_2002"/>
+    <gene id="2003" geneId="Test3_gen_2003" protId="Test3_prot_2003"/>
+    <gene id="2004" geneId="Test3_gen_2004" protId="Test3_prot_2004"/>
+    <gene id="2005" geneId="Test3_gen_2005" protId="Test3_prot_2005"/>
+   </genes>
+  </database>
+ </species>
+ <species name="Test 4" NCBITaxId="1056494">
+  <database name="EBI" version="23-JUL-2013 (Rel. 117, Last updated, Version 2)">
+   <genes>
+    <gene id="3000" geneId="Test4_gen_3000" protId="Test4_prot_3000"/>
+    <gene id="3001" geneId="Test4_gen_3001" protId="Test4_prot_3001"/>
+    <gene id="3002" geneId="Test4_gen_3002" protId="Test4_prot_3002"/>
+    <gene id="3003" geneId="Test4_gen_3003" protId="Test4_prot_3003"/>
+    <gene id="3004" geneId="Test4_gen_3004" protId="Test4_prot_3004"/>
+    <gene id="3005" geneId="Test4_gen_3005" protId="Test4_prot_3005"/>
+   </genes>
+  </database>
+ </species>
+ <groups>
+  <orthologGroup id="1">
+   <geneRef id="1" />
+   <geneRef id="1500" />
+   <notes><fingerprint id="AVIWVDE" /></notes>
+  </orthologGroup>
+  <orthologGroup id="2">
+   <geneRef id="2" />
+   <geneRef id="1501" />
+   <notes><fingerprint id="HITNRIN" /></notes>
+  </orthologGroup>
+  <orthologGroup id="3">
+   <geneRef id="2000" />
+   <geneRef id="3000" />
+   <notes><fingerprint id="KTIYMYW" /></notes>
+  </orthologGroup>
+  <orthologGroup id="4">
+   <geneRef id="2001" />
+   <geneRef id="3001" />
+   <notes><fingerprint id="KTIYMYW" /></notes>
+  </orthologGroup>
+  <orthologGroup id="5">
+   <geneRef id="4" />
+   <geneRef id="2004" />
+   <notes><fingerprint id="KTIYMYW" /></notes>
+  </orthologGroup>
+  <orthologGroup id="6">
+   <geneRef id="1505" />
+   <geneRef id="3005" />
+   <notes><fingerprint id="KTIYMYW" /></notes>
+  </orthologGroup>
+  <orthologGroup id="7">
+   <geneRef id="1502" />
+   <geneRef id="3002" />
+   <notes><fingerprint id="KTIYMYW" /></notes>
+  </orthologGroup>
+  <orthologGroup id="78074">
+	  <property name="TaxRange" value="Brassica"/>
+	  <paralogGroup>
+	    <geneRef id="1503"/>
+			<paralogGroup>
+	    		<geneRef id="1503"/>
+	    		<geneRef id="2001"/>
+  			</paralogGroup>
+	    <geneRef id="2001"/>
+	  </paralogGroup>
+	  <geneRef id="3005"/>
+	</orthologGroup>
+ </groups>
+</orthoXML>
